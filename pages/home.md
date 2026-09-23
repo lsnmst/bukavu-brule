@@ -19,7 +19,7 @@ pageTheme:
   secondaryColor: '#e5e9d3'
   highlightColor: '#dddcd0'
   auxiliaryColor: '#b096a1'
-  displayFont: ''
+  displayFont: https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap
   textFont: ''
   spacingPatterns:
     - name: 10px
@@ -36,7 +36,7 @@ modules:
     zoom: '2'
     bearing: '0'
     pitch: '0'
-    layers: '"test"'
+    layers: ''
     columnAlign: left
     floatingText: false
     views:
@@ -48,14 +48,20 @@ modules:
         duration: '2000'
         bearing: '0'
         pitch: '0'
-        layers: ''
+        layers: |-
+          "comuni-dados.72eyargqudus"
+          comuni-dados.72eyargqudus
+          brule
+          "brule"
+          test
+          "test"
         title: ''
         notes: ''
         items: []
 components:
   - type: Group
     id: main
-    shortTitle: Bem-Vindo
+    shortTitle: Bem Vindo
     longTitle: ''
     description: ''
     showInMenu: false
@@ -78,10 +84,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: |-
-                # Bem-vindo à Documental
-
-                #### Sua plataforma de software livre para a criação de geo-narrativas.
+              content: '# BUKAVU BRÛLE'
         column2:
           components:
             - type: Spacer
