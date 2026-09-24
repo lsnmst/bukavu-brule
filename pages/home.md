@@ -111,9 +111,9 @@ components:
               tablet: ''
               mobile: ''
       - type: Spacer
-        desktop: 200px
-        tablet: 200px
-        mobile: 200px
+        desktop: 400px
+        tablet: 400px
+        mobile: 400px
   - type: Group
     id: intro
     shortTitle: Intro
@@ -169,4 +169,48 @@ components:
         content: "###### Un nouvel incendie gigantesque s'est déclaré dans la ville de Bukavu, précisément aux avenues Irambo 1 et 2 au quartier Nyalukemba, la nuit de dimanche à ce lundi 21 septembre."
     columnAlign: left
     floatingText: true
+  - type: Group
+    id: chart
+    shortTitle: chart
+    longTitle: ''
+    description: ''
+    showInMenu: false
+    animations: true
+    txtColor: Primary
+    customTxtColor: ''
+    bgColor: Secondary
+    customBgColor: ''
+    backgroundMedia: []
+    overlay: none
+    components:
+      - type: Columns
+        paddingTop: true
+        paddingBottom: true
+        invertOnMobile: false
+        columnsAlign: 66-33
+        column1:
+          components:
+            - type: Text
+              hasDropCap: false
+              content: |-
+                #### Chronologie
+
+                Un bref historique des incendies survenus à Bukavu au cours des cinq dernières années.
+        column2:
+          components:
+            - type: Timeline
+              components:
+                - type: TimelineBullet
+                  text: Quartier A
+                  content: Incendie du 10er janvier 2013
+                - type: ImageBlock
+                  wideImage: false
+                  src: /uploads/arqueological-remains_03.jpg
+                  alt: ''
+                  description: ''
+            - type: Timeline
+              components:
+                - type: TimelineBullet
+                  text: Quartier B
+                  content: Incendie du 1er janvier 2001
 ---
