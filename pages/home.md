@@ -29,32 +29,44 @@ pageTheme:
 pageInclude: null
 modules:
   - type: MapBox
-    style: mapbox://styles/comuni-dados/ck87kqz1v0hlt1iptdomrfl1y
+    style: mapbox://styles/comuni-dados/cmufd4dhi000q01sae5nmhvxw
     token: pk.eyJ1IjoiY29tdW5pLWRhZG9zIiwiYSI6ImNqdWxlaHRqbjIycjE0M3BpamY3a3c4aWUifQ.HGizp_QckKQVjAZnnw8qAg
     centerLng: '28.84322773404291'
     centerLat: '-2.504769573673098'
     zoom: '2'
     bearing: '0'
     pitch: '0'
-    layers: ''
+    layers: |-
+      'comuni-dados.72eyargqudus'
+      comuni-dados.72eyargqudus
+      brule
+      'brule'
+      occurrences
+      'occurrences'
     columnAlign: left
     floatingText: false
     views:
       - id: view1
         centerLng: '28.873985743717075'
         centerLat: '-2.502155723319132'
-        zoom: '16'
-        mobileZoom: '16'
+        zoom: '13'
+        mobileZoom: '13'
         duration: '2000'
         bearing: '0'
         pitch: '0'
         layers: |-
-          "comuni-dados.72eyargqudus"
+          'comuni-dados.72eyargqudus'
           comuni-dados.72eyargqudus
           brule
-          "brule"
-          test
-          "test"
+          'brule'
+          occurrences
+          'occurrences'
+          occurrences[name==Irambo]
+          'occurrences[name==Irambo]'
+          comuni-dados.72eyargqudus[name==Irambo]
+          'comuni-dados.72eyargqudus[name==Irambo]'
+          brule[name==Irambo]
+          'brule[name==Irambo]'
         title: ''
         notes: ''
         items: []
@@ -128,7 +140,7 @@ components:
               **Bukavu, 21 septembre 2026**
           - type: Text
             hasDropCap: false
-            content: 'À 23 h 43, dans la nuit, des flammes ont de nouveau embrasé des maisons vers Hebron-Nguba, dans la commune d’Ibanda. À Bukavu, l’incendie n’est plus un accident isolé : il devient une inquiétante habitude, avec son cortège de familles sinistrées, de biens réduits en cendres et de vies bouleversées.'
+            content: 'À 23 h 43, dans la nuit, des flammes ont de nouveau embrasé des maisons vers Nyalukemba. À Bukavu, l’incendie n’est plus un accident isolé : il devient une inquiétante habitude, avec son cortège de familles sinistrées, de biens réduits en cendres et de vies bouleversées.'
           - type: Pullquote
             content: Le feu est partie d'une maison où il y avait deuil, on ne sait pas ce qui s'est passé, directement nous avons tous été surpris par le feu. La priorité était de sauver d'abord les enfants. Le feu a été maîtrisé deux heures après avoir consumé deux avenues. J'ai aussi tout perdu,  je ne savais pas sauver les enfants et les biens à la fois
             txtColor: ''
