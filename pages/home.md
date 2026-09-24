@@ -15,10 +15,10 @@ pageSettings:
   seoKeywords: []
   seoImage: ''
 pageTheme:
-  primaryColor: '#3d3734'
-  secondaryColor: '#ead8cc'
-  highlightColor: '#b35b5b'
-  auxiliaryColor: '#939acd'
+  primaryColor: '#272725'
+  secondaryColor: '#e5e9d3'
+  highlightColor: '#dddcd0'
+  auxiliaryColor: '#b096a1'
   displayFont: https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap
   textFont: ''
   spacingPatterns:
@@ -29,33 +29,51 @@ pageTheme:
 pageInclude: null
 modules:
   - type: MapBox
-    style: mapbox://styles/comuni-dados/ck87kqz1v0hlt1iptdomrfl1y
+    style: mapbox://styles/comuni-dados/cmufd4dhi000q01sae5nmhvxw
     token: pk.eyJ1IjoiY29tdW5pLWRhZG9zIiwiYSI6ImNqdWxlaHRqbjIycjE0M3BpamY3a3c4aWUifQ.HGizp_QckKQVjAZnnw8qAg
     centerLng: '28.84322773404291'
     centerLat: '-2.504769573673098'
-    zoom: '7'
+    zoom: '2'
     bearing: '0'
     pitch: '0'
-    layers: ''
+    layers: |-
+      'comuni-dados.72eyargqudus'
+      comuni-dados.72eyargqudus
+      brule
+      'brule'
+      occurrences
+      'occurrences'
     columnAlign: left
-    floatingText: true
+    floatingText: false
     views:
       - id: view1
-        centerLng: '28.86961910690058'
-        centerLat: '-2.505280193521928'
-        zoom: '16'
-        mobileZoom: '16'
+        centerLng: '28.873985743717075'
+        centerLat: '-2.502155723319132'
+        zoom: '13'
+        mobileZoom: '13'
         duration: '2000'
         bearing: '0'
         pitch: '0'
-        layers: ''
+        layers: |-
+          'comuni-dados.72eyargqudus'
+          comuni-dados.72eyargqudus
+          brule
+          'brule'
+          occurrences
+          'occurrences'
+          occurrences[name==Irambo]
+          'occurrences[name==Irambo]'
+          comuni-dados.72eyargqudus[name==Irambo]
+          'comuni-dados.72eyargqudus[name==Irambo]'
+          brule[name==Irambo]
+          'brule[name==Irambo]'
         title: ''
         notes: ''
         items: []
 components:
   - type: Group
     id: main
-    shortTitle: Bem-Vindo
+    shortTitle: Bem Vindo
     longTitle: ''
     description: ''
     showInMenu: false
@@ -78,10 +96,7 @@ components:
           components:
             - type: Text
               hasDropCap: false
-              content: |-
-                # BUKAVU BRÛLE
-
-                ####
+              content: '# BUKAVU BRÛLE'
         column2:
           components:
             - type: Spacer
@@ -90,14 +105,15 @@ components:
               mobile: ''
             - type: Text
               hasDropCap: false
-              content: |-
-                À Bukavu, la nuit ne protège plus du feu. Pendant que la ville dort, les flammes gagnent des habitations, dévorent des souvenirs et transforment en quelques minutes le fruit de plusieurs années de labeur en un tas de tôles et de cendres. 
-
-                Chaque nouveau sinistre provoque l’émotion, la solidarité spontanée et quelques appels à l’aide. Puis le silence revient, jusqu’au prochain brasier.
+              content: À Bukavu, la nuit ne protège plus du feu. Pendant que la ville dort, les flammes gagnent des habitations, dévorent des souvenirs et transforment en quelques minutes le fruit de plusieurs années de labeur en un tas de tôles et de cendres. Chaque nouveau sinistre provoque l’émotion, la solidarité spontanée et quelques appels à l’aide. Puis le silence revient, jusqu’au prochain brasier.
             - type: Spacer
               desktop: 30px
               tablet: ''
               mobile: ''
+      - type: Spacer
+        desktop: 200px
+        tablet: 200px
+        mobile: 200px
   - type: Group
     id: intro
     shortTitle: Intro
@@ -124,7 +140,7 @@ components:
               **Bukavu, 21 septembre 2026**
           - type: Text
             hasDropCap: false
-            content: 'À 23 h 43, dans la nuit, des flammes ont de nouveau embrasé des maisons vers Hebron-Nguba, dans la commune d’Ibanda. À Bukavu, l’incendie n’est plus un accident isolé : il devient une inquiétante habitude, avec son cortège de familles sinistrées, de biens réduits en cendres et de vies bouleversées.'
+            content: 'À 23 h 43, dans la nuit, des flammes ont de nouveau embrasé des maisons vers Nyalukemba. À Bukavu, l’incendie n’est plus un accident isolé : il devient une inquiétante habitude, avec son cortège de familles sinistrées, de biens réduits en cendres et de vies bouleversées.'
           - type: Pullquote
             content: Le feu est partie d'une maison où il y avait deuil, on ne sait pas ce qui s'est passé, directement nous avons tous été surpris par le feu. La priorité était de sauver d'abord les enfants. Le feu a été maîtrisé deux heures après avoir consumé deux avenues. J'ai aussi tout perdu,  je ne savais pas sauver les enfants et les biens à la fois
             txtColor: ''
